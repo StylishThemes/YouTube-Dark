@@ -1,0 +1,17 @@
+.yt-uix-button-default,
+.yt-uix-button-default[disabled],
+.yt-uix-button-default[disabled]:hover,
+.yt-uix-button-default[disabled]:active,
+.yt-uix-button-default[disabled]:focus {
+  background-color: $background-color-dark !important;
+  border-color: $border-color-dark !important;
+}
+
+.yt-uix-button-default:hover, .yt-uix-button-text:hover {
+  border-color: $border-color-dark !important;
+  background-color: #333 !important;
+}
+
+.yt-uix-button-default:hover, .yt-uix-button-text:hover > .yt-uix-button-icon-wrapper {
+  background-color: #333 !important;
+}

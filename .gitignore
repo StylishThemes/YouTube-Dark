@@ -1,0 +1,12 @@
+# Ignore the output
+stylesheets/
+
+# Ignore the node modules
+node_modules/
+
+#intellij
+*.iml
+.idea/
+
+#sass
+.sass-cache/
