@@ -1,3 +1,4 @@
+@import "config";
 /**
  * Top Bar
  */
@@ -7,4 +8,8 @@
 
 #masthead-appbar, #yt-masthead-container {
   border-bottom: 1px solid $border-color-dark !important;
+}
+
+#yt-masthead #logo {
+  @include sprite(0px, -1202px);
 }
