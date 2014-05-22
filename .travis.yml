@@ -4,8 +4,11 @@ node_js:
 rvm:
 - 2.1.0
 before_install:
+- npm install -g grunt-cli
 - gem install compass
 
-script: node ./node_modules/grunt-cli/bin/grunt --target=prod
+install: npm install
+
+script: grunt --target=prod
 
 after_script: cat ./stylesheets/youtube-dark.css
