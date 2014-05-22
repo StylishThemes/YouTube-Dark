@@ -9,3 +9,18 @@
 .yt-lockup-title a, .yt-lockup:hover a, .yt-lockup:hover .yt-lockup-meta a, .yt-lockup:hover .yt-lockup-description a {
   color: $title-color-dark !important;
 }
+
+/**
+ * Menu Items
+ */
+a.yt-uix-button-epic-nav-item.partially-selected:hover, button.yt-uix-button-epic-nav-item:hover,
+button.yt-uix-button-epic-nav-item.selected, button.yt-uix-button-epic-nav-item.yt-uix-button-toggled,
+.epic-nav-item:hover, .epic-nav-item.selected, .epic-nav-item.yt-uix-button-toggled, .epic-nav-item-heading {
+  border-color: $text-color-light !important;
+}
+
+a.yt-uix-button-epic-nav-item:hover, a.yt-uix-button-epic-nav-item.selected,
+a.yt-uix-button-epic-nav-item.yt-uix-button-toggled {
+  border-color: $border-color-dark !important;
+  border-bottom: 3px dotted !important;
+}

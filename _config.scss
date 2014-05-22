@@ -1,3 +1,4 @@
 @mixin sprite($x, $y) {
-  background: no-repeat url(//github.com/StylishThemes/YouTube-Dark/images/yt.webp) $x, $y;
+  background: no-repeat url(//raw.githubusercontent.com/StylishThemes/YouTube-Dark/master/images/yt.webp) $x $y;
+  background-size: auto;
 }
