@@ -6,6 +6,6 @@ rvm:
 before_install:
 - gem install compass
 
-script: node ./node_modules/grunt-cli/bin/grunt --target=prod
+script: grunt --target=prod
 
 after_script: cat ./stylesheets/youtube-dark.css
