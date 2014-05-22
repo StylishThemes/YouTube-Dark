@@ -1,4 +1,4 @@
-
+@import "config";
 /**
  * Links
  */
@@ -23,4 +23,9 @@ a.yt-uix-button-epic-nav-item:hover, a.yt-uix-button-epic-nav-item.selected,
 a.yt-uix-button-epic-nav-item.yt-uix-button-toggled {
   border-color: $border-color-dark !important;
   border-bottom: 3px dotted !important;
+}
+
+.feed-author-bubble {
+  @include sprite(-100px, -1456px);
+
 }

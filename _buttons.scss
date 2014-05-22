@@ -1,3 +1,5 @@
+@import "config";
+
 .yt-uix-button-default,
 .yt-uix-button-default[disabled],
 .yt-uix-button-default[disabled]:hover,
@@ -15,3 +17,54 @@
 .yt-uix-button-default:hover, .yt-uix-button-text:hover > .yt-uix-button-icon-wrapper {
   background-color: #333 !important;
 }
+
+.yt-uix-button-subscribe-branded .yt-uix-button-icon-subscribe {
+  @include sprite(-7px, -821px);
+  background-size: 72px 1152px !important;
+  width: 16px !important;
+  height: 12px !important;
+}
+
+/**
+ * Subscribe Btns
+ */
+/* Big Subscribe Btns */
+.yt-uix-button-subscribe-branded, .yt-uix-button-subscribe-branded[disabled],
+.yt-uix-button-subscribe-branded[disabled]:hover, .yt-uix-button-subscribe-branded[disabled]:active,
+.yt-uix-button-subscribe-branded[disabled]:focus {
+  @include linear-gradient(bottom, #3072b3, #4183C4);
+}
+
+.yt-uix-button-subscribe-branded span {
+  @extend .yt-uix-button-subscribe-unbranded;
+}
+
+.yt-uix-button-subscribe-branded:hover {
+  @include linear-gradient(to top, #4183C4, #3072b3);
+}
+/* ==== */
+
+/* Small Subscribe Btn */
+.yt-uix-button-subscribe-unbranded, .yt-uix-button-subscribe-unbranded[disabled],
+.yt-uix-button-subscribe-unbranded[disabled]:hover, .yt-uix-button-subscribe-unbranded[disabled]:active,
+.yt-uix-button-subscribe-unbranded[disabled]:focus {
+  @include linear-gradient(bottom, #3072b3, #4183C4);
+  border: none !important;
+}
+
+.yt-uix-button-subscribe-unbranded:hover {
+  @include linear-gradient(to top, #4183C4, #3072b3);
+  border: none !important;
+}
+
+.yt-uix-button-subscribe-unbranded span {
+  background-color: transparent !important;
+  color: $text-color-bright-gray !important;
+}
+/* ==== */
+
+/* Left&Right Btns through videos */
+.compact-shelf .yt-uix-button-shelf-slider-pager {
+  background: none !important;
+}
+/* ==== */

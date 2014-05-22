@@ -1,4 +1,16 @@
+/**
+ * WebP Image
+ */
 @mixin sprite($x, $y) {
-  background: no-repeat url(//raw.githubusercontent.com/StylishThemes/YouTube-Dark/master/images/yt.webp) $x $y;
-  background-size: auto;
+  background: no-repeat url(//raw.githubusercontent.com/StylishThemes/YouTube-Dark/master/images/yt.webp) $x $y !important;
+}
+
+/**
+ * Gradients
+ */
+@mixin linear-gradient($dir, $left-color, $right-color) {
+  background-image: -moz-linear-gradient($dir,$left-color 0,$right-color 100%) !important;
+  background-image: -ms-linear-gradient($dir,$left-color 0,$right-color 100%) !important;
+  background-image: -o-linear-gradient($dir,$left-color 0,$right-color 100%) !important;
+  background-image: -webkit-linear-gradient($dir,$left-color 0,$right-color 100%) !important;
 }
