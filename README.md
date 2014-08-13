@@ -1,5 +1,6 @@
 YouTube-Dark
 ====
+[![Build Status](https://secure.travis-ci.org/StylishThemes/YouTube-Dark.png)](http://travis-ci.org/StylishThemes/YouTube-Dark)
 
 ##Installation
 
