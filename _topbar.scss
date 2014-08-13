@@ -13,3 +13,10 @@
 #yt-masthead #logo {
   @include sprite(0, -1202px);
 }
+
+.show-guide,
+.yt-uix-button-icon-appbar-guide,
+.show-guide #masthead-positioner:hover,
+.yt-uix-button-icon-appbar-guide {
+  @include sprite2(0, -731px);
+}
