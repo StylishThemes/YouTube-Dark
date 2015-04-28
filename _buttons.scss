@@ -9,12 +9,14 @@
   border-color: $border-color-dark !important;
 }
 
-.yt-uix-button-default:hover, .yt-uix-button-text:hover {
+.yt-uix-button-default:hover, 
+.yt-uix-button-text:hover {
   border-color: $border-color-dark !important;
   background-color: #333 !important;
 }
 
-.yt-uix-button-default:hover, .yt-uix-button-text:hover > .yt-uix-button-icon-wrapper {
+.yt-uix-button-default:hover, 
+.yt-uix-button-text:hover > .yt-uix-button-icon-wrapper {
   background-color: #333 !important;
 }
 
@@ -29,8 +31,10 @@
  * Subscribe Btns
  */
 /* Big Subscribe Btns */
-.yt-uix-button-subscribe-branded, .yt-uix-button-subscribe-branded[disabled],
-.yt-uix-button-subscribe-branded[disabled]:hover, .yt-uix-button-subscribe-branded[disabled]:active,
+.yt-uix-button-subscribe-branded, 
+.yt-uix-button-subscribe-branded[disabled],
+.yt-uix-button-subscribe-branded[disabled]:hover, 
+.yt-uix-button-subscribe-branded[disabled]:active,
 .yt-uix-button-subscribe-branded[disabled]:focus {
   @include linear-gradient(bottom, #3072b3, #4183C4);
 }
@@ -45,8 +49,10 @@
 /* ==== */
 
 /* Small Subscribe Btn */
-.yt-uix-button-subscribe-unbranded, .yt-uix-button-subscribe-unbranded[disabled],
-.yt-uix-button-subscribe-unbranded[disabled]:hover, .yt-uix-button-subscribe-unbranded[disabled]:active,
+.yt-uix-button-subscribe-unbranded, 
+.yt-uix-button-subscribe-unbranded[disabled],
+.yt-uix-button-subscribe-unbranded[disabled]:hover, 
+.yt-uix-button-subscribe-unbranded[disabled]:active,
 .yt-uix-button-subscribe-unbranded[disabled]:focus {
   @include linear-gradient(bottom, #3072b3, #4183C4);
   border: none !important;
