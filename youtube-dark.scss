@@ -1,3 +1,4 @@
+@-moz-document regexp("https?://.*(\.)?youtube\.com.*") {
 $background-color-dark: #222;
 $text-color-light: #4183C4;
 $text-color-bright-gray: #EEE;
@@ -11,3 +12,5 @@ $title-color-dark: #48A3EB;
 @import "content";
 @import "player";
 @import "sidebar";
+
+}
