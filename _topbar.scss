@@ -11,13 +11,26 @@
   border-bottom: 1px solid $border-color-dark !important;
 }
 
-#yt-masthead #logo {
-  @include sprite(0, -1202px);
+#yt-masthead #logo-container .logo {
+  @include sprite2(-296px, -290px);
 }
 
+/**
+ * Guide Button
+ */
 .show-guide,
 .yt-uix-button-icon-appbar-guide,
 .show-guide #masthead-positioner:hover,
 .yt-uix-button-icon-appbar-guide {
-  @include sprite2(0, -731px);
+  @include sprite2(-63px, -14px);
+}
+
+#masthead-positioner:hover #appbar-guide-button {
+  border-color: transparent !important;
+  background: inherit !important;
+}
+
+.show-guide #appbar-guide-button .yt-uix-button-arrow,
+.show-guide #masthead-positioner:hover #appbar-guide-button .yt-uix-button-arrow {
+  border-top-color: $text-color-light !important;
 }
