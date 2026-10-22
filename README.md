@@ -1,3 +1,5 @@
+**Retired:** YouTube has a built-in dark mode now.
+
 YouTube-Dark
 ====
 [![Build Status](https://secure.travis-ci.org/StylishThemes/YouTube-Dark.png?branch=master)](http://travis-ci.org/StylishThemes/YouTube-Dark?branch=master)
